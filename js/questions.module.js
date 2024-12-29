@@ -24,7 +24,7 @@ export class Questions{
     <ul class="choices w-100 list-unstyled m-0 d-flex flex-wrap text-center">
     ${
         this.answer.map((choice)=>`<li>${choice}</li>`).join("")
-    };
+    }
     </ul>
     <h2 class="text-capitalize text-center score-color h3 fw-bold"><i class="bi bi-emoji-laughing"></i> Score: ${quize.score} </h2>        
     </div>`
